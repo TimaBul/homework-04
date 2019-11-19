@@ -1,0 +1,245 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    color: rgb(81, 81, 81);
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h2{
+margin: 0;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.containar {
+    width: 1110px;
+    margin: 0 auto;
+    max-width: 100%;
+    /* background-color: teal; */
+}
+
+/* HADER */
+.logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.size-logo {
+    text-decoration: none;
+    color: rgb(81, 81, 81);
+    font: 30px "Roboto", sans-serif;
+
+}
+.logo::first-letter {
+    color: rgb(26, 188, 156);
+    font: 30px "Roboto-Black", sans-serif;
+    font-weight: 900;
+}
+.size-navigation {
+    /* background-color: red; */
+    margin-top: 30px;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+.size-navigation a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 14px "Open-Sans-Bolt", sans-serif;
+    color: rgb(81, 81, 81);
+    font-weight: 700;
+
+}
+
+.size-navigation li {
+    display: inline-block;
+    float: left;
+}
+
+.size-navigation li:not(:last-child) {
+    margin-right: 30px;
+
+}
+.size-navigation a:hover {
+    color: rgb(26, 188, 156);
+}
+
+/* TITLE */
+.feature-title {
+    font: 48px "Roboto-Black", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-top: 34px;
+}
+
+.title {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.title::after {
+    content: '';
+    display: block;
+    width: 164px;
+    height: 7px;
+    background-color:rgb(26, 188, 156);
+    margin: 10px auto 0;
+
+}
+
+/* menu */
+
+.feature-list-title {
+    float: left;
+}
+.feature-list {
+    margin-top: 92px;
+    list-style: none;
+    padding-left: 0;
+
+
+}
+.feature-list-title {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 255px;
+    background-color: rgb(233, 240, 253);
+
+}
+
+.feature-list-title:nth-child(4n) {
+    margin-right: 0;
+}
+
+.feature-list-a {
+    text-decoration: none;
+    color: #fff;
+
+}
+
+.price-feature {
+    float: right;
+    padding: 0 12px; 
+    background-color: rgb(250, 250, 250, 0.4);
+    margin: 0;
+}
+
+.name-feature {
+    background-color: rgb(50,50,50);
+    text-transform: uppercase;
+    font: 18px "Roboto", sans-serif;
+    font-weight: 900;
+    line-height: 2.5;
+    padding-left: 14px;
+
+}
+
+.feature-list-title:hover > .feature-list-a .name-feature {
+    background-color: rgb(26,188,156);
+}
+          /* Tims title */           
+
+.team-list {
+    padding: 0;
+    margin: 0 auto 45px;
+
+}
+
+.team-list-item {
+    width: 350px;
+    float: right;
+    list-style: none;
+    margin-top: 80px;
+    margin-right: 20px;
+
+}
+
+.team-list-item:nth-of-type(1) {
+    margin-right: 0px;
+}
+
+.team-list-image {
+    display: inline-block;
+    width: 100%;
+    
+   
+
+}
+
+.team-list-image:hover {
+    opacity: 0.6;
+}
+
+.team-list-name {
+    font: 14px "Open-Sans-Bolt", sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-right: 50px;
+    list-style: none;
+
+}
+
+.team-list-about {
+    font: 12px "OpenSans", sans-serif;
+    font-weight: 600;
+    margin-right: 20px;
+    margin-top: 34px;
+
+
+}
+.feature-img {
+    display: inline-block;
+
+}
+
+
+.title-2::after {
+    content: '';
+    display: block;
+    width: 136px;
+    height: 3px;
+    background-color:rgb(26, 188, 156);
+}
+
+.team-list-a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(78, 198, 171);
+    padding: 20px 44px;
+    margin: 0 auto;
+    border-radius: 3px;
+    color: white;
+    font: 17px "OpenSans", sans-serif;
+    font-weight: 300;
+}
+
+.team-list-a:hover {
+    background-color: #515151;
+    opacity: 0.6;
+}
+
+.team-list-a, .team-list-name, .team-list-about  {
+    line-height: 16px;
+}
+/* <!-- the and --> */
